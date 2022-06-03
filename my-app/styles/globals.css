@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #202124;
+}
+
+a {
+  color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.btn-Greet {
+  @apply bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-500 rounded;
+}
+
+#Top {
+  font-family: "Montserrat", sans-serif;
+  color: #e8eaed;
+}
+
+textarea {
+  background-color: #313338 !important;
+  color: #e8eaed !important;
+}
+
+#count {
+  display: inline-block;
+  padding: 5px 20px 5px 20px;
+}
