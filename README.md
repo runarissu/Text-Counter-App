@@ -1,4 +1,4 @@
-# Text Counter App: 
+# Text Counter App
 Open the app [HERE](https://runarissu-textcounter.vercel.app/) 
 
 ## Description
